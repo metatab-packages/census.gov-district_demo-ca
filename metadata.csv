@@ -1,61 +1,64 @@
 Declare,metatab-latest
 Title,Demographics for California School Districts
-Description,Select tables of census data for California school districts
+Description,"Select tables of census data for California school districts, 2020 "
 Identifier,3e613aa3-ccdd-4967-934d-214e705c9ca0
-Name,census.gov-district_demo-ca-1
+Name,census.gov-district_demo-ca-1.2.1
 Dataset,district_demo
 Origin,census.gov
 Time,
 Space,ca
 Grain,
 Variant,
-Version,1
+Version,1.2.1
+Version.Major,1
+Version.Minor,2
+Version.Patch,1
 Created,2019-08-08T20:38:12
-Modified,2022-06-17T17:53:06
+Modified,2022-06-17T18:03:33
 Giturl,https://github.com/metatab-packages/census.gov-district_demo-ca.git
-""
+
 Section,Contacts,Email,Organization,Url,
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
-""
+
 Section,Documentation,Title,Description,,
 Documentation,file:README.md,README,,,
-""
+
 Section,References,Name,Description,TableId,
 Reference,metapack+http://library.metatab.org/sandiegodata.org-sd_demo_links-ca.csv#ca_sd_links,ca_sd_links,Links between California data files and Census records,,
-Reference,census://2017/5/CA/sdelm/B01003,sdelm_b01003,"Total Population, elementary",B01003,
-Reference,census://2017/5/CA/sdsec/B01003,sdsec_b01003,"Total Population, secondary",B01003,
-Reference,census://2017/5/CA/sduni/B01003,sduni_b01003,"Total Population, unified",B01003,
-Reference,census://2017/5/CA/sdelm/B01001,sdelm_b01001,"Sex By Age, elementary",B01001,
-Reference,census://2017/5/CA/sdsec/B01001,sdsec_b01001,"Sex By Age, secondary",B01001,
-Reference,census://2017/5/CA/sduni/B01001,sduni_b01001,"Sex By Age, unified",B01001,
-Reference,census://2017/5/CA/sdelm/B09001,sdelm_b09001,"Population Under 18 Years by Age, elementary",B09001,
-Reference,census://2017/5/CA/sdsec/B09001,sdsec_b09001,"Population Under 18 Years by Age, secondary",B09001,
-Reference,census://2017/5/CA/sduni/B09001,sduni_b09001,"Population Under 18 Years by Age, unified",B09001,
-Reference,census://2017/5/CA/sdelm/B17001,sdelm_b17001,"Poverty Status by Sex by Age, elementary",B17001,
-Reference,census://2017/5/CA/sdsec/B17001,sdsec_b17001,"Poverty Status by Sex by Age, secondary",B17001,
-Reference,census://2017/5/CA/sduni/B17001,sduni_b17001,"Poverty Status by Sex by Age, unified",B17001,
-Reference,census://2017/5/CA/sdelm/C17002,sdelm_c17002,"Ratio of Income to Poverty Level, elementary",C17002,
-Reference,census://2017/5/CA/sdsec/C17002,sdsec_c17002,"Ratio of Income to Poverty Level, secondary",C17002,
-Reference,census://2017/5/CA/sduni/C17002,sduni_c17002,"Ratio of Income to Poverty Level, unified",C17002,
-Reference,census://2017/5/CA/sdelm/B15003,sdelm_b15003,"Educational Attainment, elementary",B15003,
-Reference,census://2017/5/CA/sdsec/B15003,sdsec_b15003,"Educational Attainment, secondary",B15003,
-Reference,census://2017/5/CA/sduni/B15003,sduni_b15003,"Educational Attainment, unified",B15003,
-Reference,census://2017/5/CA/sdelm/B19081,sdelm_b19081,"Mean Household Income of Quintiles, elementary",B19081,
-Reference,census://2017/5/CA/sdsec/B19081,sdsec_b19081,"Mean Household Income of Quintiles, secondary",B19081,
-Reference,census://2017/5/CA/sduni/B19081,sduni_b19081,"Mean Household Income of Quintiles, unified",B19081,
-Reference,census://2017/5/CA/sdelm/B25077,sdelm_b25077,"Median Home Value (Dollars), elementary",B25077,
-Reference,census://2017/5/CA/sdsec/B25077,sdsec_b25077,"Median Home Value (Dollars), secondary",B25077,
-Reference,census://2017/5/CA/sduni/B25077,sduni_b25077,"Median Home Value (Dollars), unified",B25077,
-Reference,census://2017/5/CA/sdelm/B02001,sdelm_b02001,"Race, elementary",B02001,
-Reference,census://2017/5/CA/sdsec/B02001,sdsec_b02001,"Race, secondary",B02001,
-Reference,census://2017/5/CA/sduni/B02001,sduni_b02001,"Race, unified",B02001,
-Reference,census://2017/5/CA/sdelm/B03001,sdelm_b03001,"Hispanic or Latino Origin by Specific Origin, elementary",B03001,
-Reference,census://2017/5/CA/sdsec/B03001,sdsec_b03001,"Hispanic or Latino Origin by Specific Origin, secondary",B03001,
-Reference,census://2017/5/CA/sduni/B03001,sduni_b03001,"Hispanic or Latino Origin by Specific Origin, unified",B03001,
-""
+Reference,census://2020/5/CA/sdelm/B01003,sdelm_b01003,"Total Population, elementary",B01003,
+Reference,census://2020/5/CA/sdsec/B01003,sdsec_b01003,"Total Population, secondary",B01003,
+Reference,census://2020/5/CA/sduni/B01003,sduni_b01003,"Total Population, unified",B01003,
+Reference,census://2020/5/CA/sdelm/B01001,sdelm_b01001,"Sex By Age, elementary",B01001,
+Reference,census://2020/5/CA/sdsec/B01001,sdsec_b01001,"Sex By Age, secondary",B01001,
+Reference,census://2020/5/CA/sduni/B01001,sduni_b01001,"Sex By Age, unified",B01001,
+Reference,census://2020/5/CA/sdelm/B09001,sdelm_b09001,"Population Under 18 Years by Age, elementary",B09001,
+Reference,census://2020/5/CA/sdsec/B09001,sdsec_b09001,"Population Under 18 Years by Age, secondary",B09001,
+Reference,census://2020/5/CA/sduni/B09001,sduni_b09001,"Population Under 18 Years by Age, unified",B09001,
+Reference,census://2020/5/CA/sdelm/B17001,sdelm_b17001,"Poverty Status by Sex by Age, elementary",B17001,
+Reference,census://2020/5/CA/sdsec/B17001,sdsec_b17001,"Poverty Status by Sex by Age, secondary",B17001,
+Reference,census://2020/5/CA/sduni/B17001,sduni_b17001,"Poverty Status by Sex by Age, unified",B17001,
+Reference,census://2020/5/CA/sdelm/C17002,sdelm_c17002,"Ratio of Income to Poverty Level, elementary",C17002,
+Reference,census://2020/5/CA/sdsec/C17002,sdsec_c17002,"Ratio of Income to Poverty Level, secondary",C17002,
+Reference,census://2020/5/CA/sduni/C17002,sduni_c17002,"Ratio of Income to Poverty Level, unified",C17002,
+Reference,census://2020/5/CA/sdelm/B15003,sdelm_b15003,"Educational Attainment, elementary",B15003,
+Reference,census://2020/5/CA/sdsec/B15003,sdsec_b15003,"Educational Attainment, secondary",B15003,
+Reference,census://2020/5/CA/sduni/B15003,sduni_b15003,"Educational Attainment, unified",B15003,
+Reference,census://2020/5/CA/sdelm/B19081,sdelm_b19081,"Mean Household Income of Quintiles, elementary",B19081,
+Reference,census://2020/5/CA/sdsec/B19081,sdsec_b19081,"Mean Household Income of Quintiles, secondary",B19081,
+Reference,census://2020/5/CA/sduni/B19081,sduni_b19081,"Mean Household Income of Quintiles, unified",B19081,
+Reference,census://2020/5/CA/sdelm/B25077,sdelm_b25077,"Median Home Value (Dollars), elementary",B25077,
+Reference,census://2020/5/CA/sdsec/B25077,sdsec_b25077,"Median Home Value (Dollars), secondary",B25077,
+Reference,census://2020/5/CA/sduni/B25077,sduni_b25077,"Median Home Value (Dollars), unified",B25077,
+Reference,census://2020/5/CA/sdelm/B02001,sdelm_b02001,"Race, elementary",B02001,
+Reference,census://2020/5/CA/sdsec/B02001,sdsec_b02001,"Race, secondary",B02001,
+Reference,census://2020/5/CA/sduni/B02001,sduni_b02001,"Race, unified",B02001,
+Reference,census://2020/5/CA/sdelm/B03001,sdelm_b03001,"Hispanic or Latino Origin by Specific Origin, elementary",B03001,
+Reference,census://2020/5/CA/sdsec/B03001,sdsec_b03001,"Hispanic or Latino Origin by Specific Origin, secondary",B03001,
+Reference,census://2020/5/CA/sduni/B03001,sduni_b03001,"Hispanic or Latino Origin by Specific Origin, unified",B03001,
+
 Section,Resources,Name,Description,,
 Datafile,notebooks/Demographics.ipynb#df,ca_sd_demo,California school district demographics,,
-""
+
 Section,Schema,DataType,Description,Has_Codes
 Table,ca_sd_demo,,,
 Table.Column,geoid,string,,
